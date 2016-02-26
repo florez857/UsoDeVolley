@@ -13,7 +13,7 @@ public class Articulo {
 
         this.titulo=titulo;
         this.contenido=contenido;
-        this.imagen=imagen;
+        this.imagen=id;
 
 
     }

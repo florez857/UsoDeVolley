@@ -34,6 +34,10 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.holder> {
         }
     }
 
+     public Adaptador(ArrayList<Articulo> datos){
+         this.datos=datos;
+
+     }
 
     @Override
     public holder onCreateViewHolder(ViewGroup parent, int viewType) {
